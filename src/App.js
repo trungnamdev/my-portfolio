@@ -36,7 +36,7 @@ function App() {
   return (
     <div>
       <div className='banner'>
-        <img src="https://images.unsplash.com/photo-1669397113207-921e30c34f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"></img>
+        <img className='imgofbanner' src="https://images.unsplash.com/photo-1669397113207-921e30c34f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"></img>
       </div>
       <div className='p-p'>
         <div className='profile'>
