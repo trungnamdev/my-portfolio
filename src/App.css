@@ -159,6 +159,7 @@ img {
   transition: all 0.2s ease-in-out;
   position: relative;
 }
+
 .pj::before {
   content: "";
   position: absolute;
@@ -169,66 +170,135 @@ img {
   left: 0;
   transition: all 0.2s ease-in-out;
 }
+
 .pj:hover {
   /* box-shadow: 6px 6px 10px 0px #7ba5ff8e; */
   box-shadow: 11px 13px 9px 0px #cfcfcf;
 }
-.pj:hover.pj::before{
+
+.pj:hover.pj::before {
   background-color: rgba(0, 0, 0, 0);
 }
-.detailpj{
+
+.detailpj {
   position: absolute;
   bottom: 10px;
   left: 10px;
 }
-.namepj{
+
+.namepj {
   font-weight: 500;
   color: white;
   font-size: 18px;
   margin-bottom: 5px;
 }
-.tech{
+
+.tech {
   font-weight: 400;
   color: rgb(216, 216, 216);
   font-size: 16px;
   margin-bottom: 5px;
   font-style: italic;
 }
-.detailsp{
+
+.detailsp {
   position: absolute;
   top: 15px;
   right: 15px;
   font-size: 25px;
   color: rgb(197 197 197 / 78%);
 }
-body{
+
+body {
   position: relative;
   height: 100%;
 }
-.dtpo{
+
+.dtpo {
   width: 100%;
-  position: fixed; 
-  top: 0; right: 0; bottom: 0; left: 0; 
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   height: 100vh;
+  background-color: #000000b5;
 }
-.indiv{
-  width: 70%;
-  /* background-color: black; */
+
+.indiv {
+  width: 100%;
+  height: 100%;
+  background-color: white;
   overflow-y: scroll;
   overscroll-behavior: contain;
   color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-sizing: border-box;
+  padding: 0px 15%;
+  padding-top: 30px;
+
 }
+
 .indiv::-webkit-scrollbar {
   display: none;
 }
-.outdiv{
-  width: 15%;
-  background-color: #000000b5;
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.outdiv {
+  width: 100%;
+  height: 50px;
 
 }
 
-.imgofbanner{
-  object-position: 0 -254px;
+@media(max-width: 1150px) {
+  .p-p {
+    flex-direction: column;
+  }
+  .profile-i{
+    position: unset;
+    width: 98%;
+
+  }
+  .profile{
+    width: 100%;
+  }
+  .chuapj {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .project {
+    width: 100%;
+  }
+}
+@media(max-width: 780px) {
+  .pj {
+    width: 45%;
+    margin: 2.5%;
+  }
+  .indiv {
+    padding: 0px 5%;
+    padding-top: 30px;
+  }
+}
+
+@media(max-width: 530px) {
+  .pj {
+    width: 100%;
+  }
+  .indiv {
+    padding: 0px 5%;
+    padding-top: 30px;
+  }
+  .main {
+    font-size: 12px;
+  }
+  .td {
+    font-size: 24px;
+  }
 }
