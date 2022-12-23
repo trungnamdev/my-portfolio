@@ -2,7 +2,7 @@ import React from 'react'
 import SlideImg from '../Component/SlideImg';
 import '../css/Lygapp.css';
 
-export default function Ntivi() {
+export default function Ntivi({showLightBox}) {
     return (
         <div className='main' style={{ backgroundColor: '#333333',color:'white' }}>
             <p className='td'>WEBSITE XEM TIVI TRỰC TUYẾN NTIVI
@@ -22,13 +22,13 @@ Ultimate Dashboard, WP Dark Mode, WP Super Cache, WP Ulike, Yoast SEO, WPS Hide 
                 <span>Dự án hổ trợ các ngôn ngữ :</span> Tiếng việt, tiếng anh, tiếng thái, tiếng trung.
             </p>
            
-            <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3c19b5136543067.61fb61559d2bf.png' />
-            <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1bc5f9136543067.61fb61559ec10.png' />
-            <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b5b01c136543067.61fb61559dbcd.png' />
-            <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/37110c136543067.61fb61559f31d.png' />
-            <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/663221136543067.61fb61559ca36.png' />
-            <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/de69c3136543067.61fb61559c0a9.png' />
-            <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7883f4136543067.61fb61559e369.png' />
+            <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3c19b5136543067.61fb61559d2bf.png' />
+            <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1bc5f9136543067.61fb61559ec10.png' />
+            <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b5b01c136543067.61fb61559dbcd.png' />
+            <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/37110c136543067.61fb61559f31d.png' />
+            <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/663221136543067.61fb61559ca36.png' />
+            <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/de69c3136543067.61fb61559c0a9.png' />
+            <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7883f4136543067.61fb61559e369.png' />
         </div>
     )
 }

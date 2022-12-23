@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/Lygapp.css';
 
-export default function LYGAPP() {
+export default function LYGAPP({showLightBox}) {
   return (
     <div className='main' style={{ backgroundColor: '#366C9C' }}>
       <p className='td'>ỨNG DỤNG NỘI BỘ DOANH NGHIỆP
@@ -27,25 +27,25 @@ export default function LYGAPP() {
         <p className='gioithieu'>Ứng dụng nội bộ doanh nghiệp giúp nhân viên trong tập đoàn LY xem lương, ngày nghỉ, tăng ca, sổ tay lao động, nhận thông báo nhà máy,...</p>
       <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b27b28153499583.633e4779709b5.png' />
       <div className='slideimg'>
-        <img style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c6cd0f153499583.63315b2667158.png'/>
-        <img style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3f2860153499583.63315b2661543.png'/>
-        <img style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a6f692153499583.63315b2666748.png'/>
-        <img style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9c485e153499583.63315b2662ddc.png'/>
-        <img style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/954a5f153499583.63315b2667a7c.png'/>
-        <img style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/c46cd1153499583.63315b26637c3.png'/>
-        <img style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/a728c5153499583.63315b2665423.png'/>
-        <img style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/f55e66153499583.63315b26641ba.png'/>
+        <img onClick={showLightBox} style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c6cd0f153499583.63315b2667158.png'/>
+        <img onClick={showLightBox} style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3f2860153499583.63315b2661543.png'/>
+        <img onClick={showLightBox} style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a6f692153499583.63315b2666748.png'/>
+        <img onClick={showLightBox} style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9c485e153499583.63315b2662ddc.png'/>
+        <img onClick={showLightBox} style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/954a5f153499583.63315b2667a7c.png'/>
+        <img onClick={showLightBox} style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/c46cd1153499583.63315b26637c3.png'/>
+        <img onClick={showLightBox} style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/a728c5153499583.63315b2665423.png'/>
+        <img onClick={showLightBox} style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/f55e66153499583.63315b26641ba.png'/>
       
       </div>
       <div className='slideimg'>
-        <img style={{width: `${100/4}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e3f834153499583.63315b2661ef3.png'/>
-        <img style={{width: `${100/4}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/3ea01c153499583.63315b2660aa8.png'/>
-        <img style={{width: `${100/4}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/0fc2ec153499583.63315b2664aaa.png'/>
-        <img style={{width: `${100/4}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/94869f153499583.63315b2665e42.png'/>
+        <img onClick={showLightBox} style={{width: `${100/4}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e3f834153499583.63315b2661ef3.png'/>
+        <img onClick={showLightBox} style={{width: `${100/4}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/3ea01c153499583.63315b2660aa8.png'/>
+        <img onClick={showLightBox} style={{width: `${100/4}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/0fc2ec153499583.63315b2664aaa.png'/>
+        <img onClick={showLightBox} style={{width: `${100/4}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/94869f153499583.63315b2665e42.png'/>
       </div>
-        <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e79d40153499583.63315b2714040.jpg'/>
-        <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f98bfc153499583.63315b27145ec.jpg'/>
-        <img src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/344693153499583.636b2e1960ee6.jpg'/>
+        <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e79d40153499583.63315b2714040.jpg'/>
+        <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f98bfc153499583.63315b27145ec.jpg'/>
+        <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/344693153499583.636b2e1960ee6.jpg'/>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/Lygapp.css';
 import { Player } from 'video-react';
 
-export default function Dunet() {
+export default function Dunet({showLightBox}) {
     return (
         <div className='main' style={{ backgroundColor: '#181A20' }}>
             <p className='td'>Dunet - Cổng donate cho streamer</p>
@@ -14,10 +14,10 @@ export default function Dunet() {
             <div class="iframe-container">
                 <iframe style={{ border: "none", outline: 'none' }} allowfullscreen src="https://www-ccv.adobe.io/v1/player/ccv/PAIYaVbTAez/embed?api_key=behance1&bgcolor=%23191919"></iframe>
             </div>
-            <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1b52dc159641421.63a2cca9d6bff.jpg' />
-            <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7f923c159641421.63a2cca9d792a.jpg' />
-            <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e68754159641421.63a2cca9d8630.jpg' />
-            <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3b9e9159641421.63a2cca9d5e83.jpg' />
+            <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1b52dc159641421.63a2cca9d6bff.jpg' />
+            <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7f923c159641421.63a2cca9d792a.jpg' />
+            <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e68754159641421.63a2cca9d8630.jpg' />
+            <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3b9e9159641421.63a2cca9d5e83.jpg' />
         </div>
     )
 }
