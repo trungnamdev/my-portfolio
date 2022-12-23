@@ -253,7 +253,11 @@ body::-webkit-scrollbar {
 .outdiv {
   width: 100%;
   height: 50px;
-
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  box-sizing: border-box;
+  padding-right: 3%;
 }
 .lightbox{
   width: 100%;

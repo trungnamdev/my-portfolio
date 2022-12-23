@@ -117,7 +117,7 @@ function App() {
         }}></div> */}
         <div className='outdiv' onClick={() => {
           setshowdt(false)
-        }}></div>
+        }}><AiOutlineClose size={30} color="WHITE" /></div>
         <div className='indiv'>
           {dtid}
         </div>
