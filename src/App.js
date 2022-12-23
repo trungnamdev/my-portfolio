@@ -74,7 +74,7 @@ function App() {
               <a href='mailto:trungnamdev@gmail.com' target="_blank" className='button-white'>Gmail</a>
             </div>
             <div className='pagrap'>
-              <p className='tdpag'>Về tác giả</p>
+              <p className='tdpag'>Giới thiệu</p>
               <p className='noidungpag'>The primary driver for the increase in the demand for mobile applications is the increase and the reliability of internet usage, particularly in developing nations. With almost all mobile applications available only from e-platforms, access to reliable internet is crucial for the growth of mobile application buyers.</p>
             </div>
             <div className='pagrap'>
