@@ -25,7 +25,7 @@ export default function LYGAPP({showLightBox}) {
             <span>Số lượng thành viên nhóm phát triển :</span> 2
         </p>
         <p className='gioithieu'>Ứng dụng nội bộ doanh nghiệp giúp nhân viên trong tập đoàn LY xem lương, ngày nghỉ, tăng ca, sổ tay lao động, nhận thông báo nhà máy,...</p>
-      <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b27b28153499583.633e4779709b5.png' />
+      <img onClick={showLightBox} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b27b28153499583.633e4779709b5.png' />
       <div className='slideimg'>
         <img onClick={showLightBox} style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c6cd0f153499583.63315b2667158.png'/>
         <img onClick={showLightBox} style={{width: `${100/8}%`,}} src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3f2860153499583.63315b2661543.png'/>
