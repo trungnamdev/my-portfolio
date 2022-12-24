@@ -5,7 +5,7 @@ import '../css/Lygapp.css';
 export default function Quanlytien({showLightBox}) {
     return (
         <div className='main' style={{ backgroundColor: 'white',color:'black' }}>
-            <p className='td'>ỨNG DỤNG QUẢN LÝ TIỀN 
+            <p className='td'>ỨNG DỤNG QUẢN LÝ TIỀN <br></br>
 MONEY MANAGEMENT</p>
             <p className='detailtt'>
                 <span>Công nghệ sử dụng :</span> React Native, Expo, SqLite,....

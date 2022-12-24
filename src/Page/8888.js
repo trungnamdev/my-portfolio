@@ -6,13 +6,19 @@ import SlideImg from '../Component/SlideImg';
 export default function QL8888({showLightBox}) {
     return (
         <div className='main' style={{ backgroundColor: '#161850' }}>
-            <p className='td'>HỆ THỐNG QUẢN LÝ HỌC TẬP
+            <p className='td'>HỆ THỐNG QUẢN LÝ HỌC TẬP<br></br>
 LEARNING MANAGEMENT SYSTEM </p>
             <p className='detailtt'>
                 <span>Trong dự án sử dụng :</span> PHP, MySQL, Cloudinary, Firebase ( Realtime Database ), Electronjs (webview), React Native (webview), Twilio, PHPmailer.
             </p>
             <p className='detailtt'>
                 <span>Các chức năng nổi bật :</span> Chat realtime, lưu trữ đám mây, thanh toán VNPAY...
+            </p>
+            <p className='gioithieu'>
+                Giảng viên : Giao bài tập, chấm bài tập trực tiếp trên hệ thống, xem lớp dạy, sinh viên,... <br></br><br></br>
+                Sinh viên: Nộp bài tập, xem lớp học, bài tập,điểm số... <br></br><br></br>
+                Quản lý: Quản lý sinh viên, giảng viên, tạo lớp học,...<br></br><br></br>
+                * Mọi hình ảnh và file nộp bài tập được lưu trữ trên cloud
             </p>
             <img onClick={showLightBox} src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d7a94b136542111.61fb5ac228a2b.png" />
             <img onClick={showLightBox} src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/97d6ea136542111.61fb5ac22b1dd.png" />

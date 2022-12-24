@@ -5,7 +5,7 @@ import '../css/Lygapp.css';
 export default function Ntivi({showLightBox}) {
     return (
         <div className='main' style={{ backgroundColor: '#333333',color:'white' }}>
-            <p className='td'>WEBSITE XEM TIVI TRỰC TUYẾN NTIVI
+            <p className='td'>WEBSITE XEM TIVI TRỰC TUYẾN NTIVI<br></br>
 WEBSITE WATCH TV ONLINE
 </p>
             <p className='detailtt'>

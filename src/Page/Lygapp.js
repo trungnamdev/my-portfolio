@@ -4,7 +4,7 @@ import '../css/Lygapp.css';
 export default function LYGAPP({showLightBox}) {
   return (
     <div className='main' style={{ backgroundColor: '#366C9C' }}>
-      <p className='td'>ỨNG DỤNG NỘI BỘ DOANH NGHIỆP
+      <p className='td'>ỨNG DỤNG NỘI BỘ DOANH NGHIỆP<br></br>
         LYG APP</p>
         <p className='detailtt'>
             <span>Công nghệ sử dụng :</span> React Native, Expo, Nodejs,...

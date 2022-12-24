@@ -4,7 +4,7 @@ import '../css/Lygapp.css';
 export default function TinderFS({ showLightBox }) {
     return (
         <div className='main' style={{ backgroundColor: '#7E0986' }}>
-            <p className='td'>WEBSTIE HẸN HÒ CHO TRƯỜNG HỌC
+            <p className='td'>WEBSTIE HẸN HÒ CHO TRƯỜNG HỌC<br></br>
                 WEBSITE TINDER FOR SCHOOL</p>
             <p className='detailtt'>
                 <span>Công nghệ sử dụng :</span>PHP, Blade template, Laravel, Socialite, Firebase, Auth...

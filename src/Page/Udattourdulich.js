@@ -5,7 +5,7 @@ import '../css/Lygapp.css';
 export default function Udattourdulich({ showLightBox }) {
     return (
         <div className='main' style={{ backgroundColor: '#414A58' }}>
-            <p className='td'>ỨNG DỤNG ĐẶT TOUR DU LỊCH
+            <p className='td'>ỨNG DỤNG ĐẶT TOUR DU LỊCH<br></br>
                 TRAVEL BOOKING APP</p>
             <p className='detailtt'>
                 <span>Công nghệ sử dụng :</span> React Native, Expo, QR Scaner, AsyncStorage,...

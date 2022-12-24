@@ -74,11 +74,17 @@ function App() {
               <a href='mailto:trungnamdev@gmail.com' target="_blank" className='button-white'>Gmail</a>
             </div>
             <div className='pagrap'>
-              <p className='tdpag'>Giới thiệu</p>
-              <p className='noidungpag'>The primary driver for the increase in the demand for mobile applications is the increase and the reliability of internet usage, particularly in developing nations. With almost all mobile applications available only from e-platforms, access to reliable internet is crucial for the growth of mobile application buyers.</p>
+              <p className='tdpag'>INTRODUCE</p>
+              <p className='noidungpag'>
+                As a web and mobile app developer with experience in PHP, framework LARAVEL, React Native, Expo, ReactJs, MYSQL, MSSQL, Realtime database, API, GRAPHQL...
+                <br></br><br></br>
+                Loves to learn and explore new technologies, can quickly research technology to apply to each different project. (Self-taught react native in 1 week to implement a project for the company).
+                <br></br><br></br>
+                Ability to analyze systems and present good source code can work independently and in groups.
+              </p>
             </div>
             <div className='pagrap'>
-              <p className='tdpag'>Tải file đính kèm</p>
+              <p className='tdpag'>My CV</p>
               <p className='noidungpag'><a href='#'><AiOutlineDownload size={15} style={{ marginRight: 10 }} />cv.pdf</a></p>
             </div>
           </div>

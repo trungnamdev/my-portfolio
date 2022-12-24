@@ -4,7 +4,7 @@ import '../css/Lygapp.css';
 export default function Wdatvedulich({ showLightBox }) {
     return (
         <div className='main' style={{ backgroundColor: '#00856F' }}>
-            <p className='td'>WEBSITE ĐẶT VÉ DU LỊCH TRONG NƯỚC
+            <p className='td'>WEBSITE ĐẶT VÉ DU LỊCH TRONG NƯỚC<br></br>
                 VIETTRAVEL</p>
             <p className='detailtt'>
                 <span>Công nghệ sử dụng :</span> Reactjs, QRcode, Barcode, Ant design,..

@@ -5,7 +5,7 @@ import { Player } from 'video-react';
 export default function Ngame({showLightBox}) {
     return (
         <div className='main' style={{ backgroundColor: '#270057' }}>
-            <p className='td'>WEBSITE BÁN TÀI KHOẢN GAME 
+            <p className='td'>WEBSITE BÁN TÀI KHOẢN GAME <br></br>
 WEBSITE SELL GAME ACCOUNTS</p>
             <p className='detailtt'>
                 <span>Trong dự án sử dụng :</span> PHP, MySQL, JQUERY, AJAX...
