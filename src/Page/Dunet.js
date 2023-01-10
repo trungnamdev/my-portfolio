@@ -7,7 +7,7 @@ export default function Dunet({showLightBox}) {
         <div className='main' style={{ backgroundColor: '#181A20' }}>
             <p className='td'>Dunet - Cổng donate cho streamer</p>
             <p className='detailtt'>
-                <span>Công nghệ sử dụng :</span> Laravel,Mysql ...
+                <span>Công nghệ sử dụng :</span> Laravel, Mysql, Pusher ...
             </p>
             <p className='gioithieu'>Streamer sẽ nhận được mã khóa dùng để hiển thị người donate trong thời gian thực của mình khi đăng ký thành công. (vd : c4ca4238a0b923820dcc509a6f75849b)</p>
             <p className='gioithieu'>Người dùng khi tiến hành donate và thanh toán thành công trên trên live sẽ hiện tên, số tiền, lời nhắn trực tiếp trong thời gian thực.</p>

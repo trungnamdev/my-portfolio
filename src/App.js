@@ -30,9 +30,9 @@ function App() {
     }
   }
   const listpj = [
+    { name: "Ứng dụng nội bộ LYG APP", tech: "React Native, Expo, Nodejs,...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/be6d86153499583.Y3JvcCwxMDU4LDgyOCwyMCww.png", cpn: <Lygapp showLightBox={showLightBox} />, sp: 1 },
     { name: "Dunet - Cổng donate cho streamer", tech: "Laravel, Mysql ...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/09b1f2159641421.Y3JvcCw4MDgsNjMyLDAsMA.png", cpn: <Dunet showLightBox={showLightBox} />, sp: 0 },
     { name: "Binance login with QR", tech: "React Native, Laravel,...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/3fbdba159387565.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png", cpn: <BinanceLG showLightBox={showLightBox} />, sp: 2 },
-    { name: "Ứng dụng nội bộ LYG APP", tech: "React Native, Expo, Nodejs,...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/be6d86153499583.Y3JvcCwxMDU4LDgyOCwyMCww.png", cpn: <Lygapp showLightBox={showLightBox} />, sp: 1 },
     { name: "Website đặt vé du lịch", tech: "Reactjs, Cloudinary, Laravel,...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/753ee0139128899.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png", cpn: <Wdatvedulich showLightBox={showLightBox} />, sp: 0 },
     { name: "Ứng dụng đặt tour du lịch", tech: "React native, Larave, Mysql,...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/98da89136545111.Y3JvcCw4MjcsNjQ3LDY1LDA.png", cpn: <Udattourdulich showLightBox={showLightBox} />, sp: 1 },
     { name: "Ứng dụng quản lý tiền", tech: "React Native, Expo, SqLite,....", image: "https://mir-s3-cdn-cf.behance.net/projects/404_webp/4323cc136544603.Y3JvcCw2NDUsNTA1LDM4LDMz.png", cpn: <Quanlytien showLightBox={showLightBox} />, sp: 1 },
