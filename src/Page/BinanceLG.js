@@ -9,6 +9,9 @@ export default function BinanceLG({showLightBox}) {
             <p className='detailtt'>
                 <span>Công nghệ sử dụng :</span> React Native, Laravel,...
             </p>
+            <p className='detailtt'>
+                <span>Hỗ trợ :</span> Android & IOS
+            </p>
             <p className='gioithieu'>Đăng nhập không sử dụng mật khẩu người dùng sau khi đăng nhập trên thiết bị di động có thể quét mã qr để đăng nhập trực tiếp mà không cần nhập tài khoản mật khẩu</p>
             <div class="iframe-container">
             <iframe style={{border:"none",outline:'none'}} allowfullscreen src="https://www-ccv.adobe.io/v1/player/ccv/-aWY36UNb5u/embed?api_key=behance1&bgcolor=%23191919"></iframe>
