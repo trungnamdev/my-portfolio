@@ -65,7 +65,7 @@ function App() {
         <div className='profile'>
           <div className='profile-i'>
             <div className='avt'>
-              <img src='https://images.unsplash.com/photo-1671394401034-56eadf53f5dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60' />
+              <img src='https://mir-s3-cdn-cf.behance.net/user/230/6e25a21188340511.61fb7005e8eaf.jpg' />
             </div>
             <p className='hoten'>Trung Nam</p>
             <p className='position'>Mobile and Web Developer</p>
@@ -85,7 +85,7 @@ function App() {
             </div>
             <div className='pagrap'>
               <p className='tdpag'>My CV</p>
-              <p className='noidungpag'><a href='#'><AiOutlineDownload size={15} style={{ marginRight: 10 }} />cv.pdf</a></p>
+              <p className='noidungpag'><a href='./cv/NguyenTranTrungNam_CV.pdf'><AiOutlineDownload size={15} style={{ marginRight: 10 }} />cv.pdf</a></p>
             </div>
           </div>
         </div>
