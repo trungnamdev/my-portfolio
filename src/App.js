@@ -14,6 +14,7 @@ import Tuoithoviet from './Page/Tuoithoviet';
 import Ngame from './Page/Ngame';
 import QL8888 from './Page/8888';
 import TinderFS from './Page/TinderFS';
+import CloneGojet from './Page/CloneGojet';
 
 function App() {
   const [showdt, setshowdt] = useState(false);
@@ -30,6 +31,7 @@ function App() {
     }
   }
   const listpj = [
+    { name: "Gojek Clone UI-UX", tech: "Gojek API, React Native,...", image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/cf7570164611163.63f9879c86c12.png", cpn: <CloneGojet showLightBox={showLightBox} />, sp: 1 },
     { name: "Ứng dụng nội bộ LYG APP", tech: "React Native, Expo, Nodejs,...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/be6d86153499583.Y3JvcCwxMDU4LDgyOCwyMCww.png", cpn: <Lygapp showLightBox={showLightBox} />, sp: 1 },
     { name: "Dunet - Cổng donate cho streamer", tech: "Laravel, Mysql ...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/09b1f2159641421.Y3JvcCw4MDgsNjMyLDAsMA.png", cpn: <Dunet showLightBox={showLightBox} />, sp: 0 },
     { name: "Binance login with QR", tech: "React Native, Laravel,...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/3fbdba159387565.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png", cpn: <BinanceLG showLightBox={showLightBox} />, sp: 2 },
@@ -41,7 +43,6 @@ function App() {
     { name: "Website tuổi thơ việt SAIGON'S GAME", tech: "PHP, MySQL, Laravel,...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/2cd5b6136542883.Y3JvcCwxMjU2LDk4Myw0MDcsMA.jpg", cpn: <Tuoithoviet showLightBox={showLightBox} />, sp: 0 },
     { name: "Website sell game accounts", tech: "PHP, MySQL, JQUERY, AJAX...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/9b106c136542661.Y3JvcCwxMzgwLDEwODAsNiww.png", cpn: <Ngame showLightBox={showLightBox} />, sp: 0 },
     { name: "Hệ thống quản lý trường học 8888", tech: " PHP, MySQL, Cloudinary, Firebase,...", image: "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/340590136542111.Y3JvcCwxMTM3LDg4OSwwLDA.png", cpn: <QL8888 showLightBox={showLightBox} />, sp: 2 },
-
   ];
   const showsp = (sp) => {
     switch (sp) {
